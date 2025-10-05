@@ -13,18 +13,16 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "ignoreDeprecations": "6.0",
-    "baseUrl": "src",
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@/lib/*": ["lib/*"],
-      "@/models/*": ["models/*"],
-      "@/styles/*": ["styles/*"]
+      "@/*": ["./src/*"]
+      // "@/lib/*": ["lib/*"],
+      // "@/models/*": ["models/*"],
+      // "@/styles/*": ["styles/*"]
     }
   },
   "include": [
