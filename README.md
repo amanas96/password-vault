@@ -29,12 +29,12 @@ IMPORTANT: Replace the placeholders with your actual, long, random secret values
 
 
 # 1. MongoDB Connection String (Required for database access)
-MONGODB_URI="mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.k9cjp8z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI="Paste Your Connection String"
 # 2. JWT Secret Key (Used on the server to sign/verify authentication tokens)
-# Use a strong, random, 64-byte Base64 string.
+Use a strong, random, 64-byte Base64 string.
 JWT_SECRET="PASTE_YOUR_STRONG_RANDOM_JWT_SECRET_HERE" 
 # 3. Encryption Salt (Used on the client for PBKDF2 key derivation)
-# Use a strong, random, 64-byte Base64 string.
+Use a strong, random, 64-byte Base64 string.
 ENCRYPTION_SALT="PASTE_YOUR_STRONG_RANDOM_ENCRYPTION_SALT_HERE"
 
 
